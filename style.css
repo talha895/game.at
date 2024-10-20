@@ -1,3 +1,68 @@
-td{
-    border: 2px solid black;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Image Styling */
+img {
+    border: 2px solid #333;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Header */
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tfoot {
+    background-color: #f1f1f1;
+}
+
+/* Rowspan and Colspan Styling */
+td[rowspan] {
+    vertical-align: middle;
+    text-align: center;
+}
+
+td[colspan] {
+    text-align: center;
+}
+
+/* Caption Styling */
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Unordered List Styling */
+ul[type="square"] {
+    list-style-type: square;
+    margin-bottom: 20px;
+}
+
+/* Ordered List Styling */
+ol[type="A"] {
+    list-style-type: upper-alpha;
+    margin-bottom: 20px;
 }
