@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -55,6 +56,13 @@ header {
     background-color: #e23744;
     color: white;
 }
+.logo {
+    background: none; /* Removes any background */
+    color: blue; /* Changes the text color to blue */
+    font-size: 100px; /* Adjust the size as per your requirement */
+    font-weight: bold; /* Makes the text bold */
+}
+
 
 .logo img {
     height: 30px;  /* Reduced size */
