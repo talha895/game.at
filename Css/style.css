@@ -56,7 +56,7 @@ header {
     background-color: #e23744;
     color: white;
 }
-.logo {
+.logo img {
     background: none; /* Removes any background */
     color: blue; /* Changes the text color to blue */
     font-size: 100px; /* Adjust the size as per your requirement */
